@@ -1,0 +1,1 @@
+SELECT  distinct Employee_ID, (WorkingHours * NumberOfDaysPresent * SalaryPerHour) AS Profit from employee_working_detail, post_salary_details where SalaryPerHour in (select SalaryPerHour from post_salary_details, employee_working_detail where employee_working_detail.Post_ID = post_salary_details.Post_ID)  AND employee_working_detail.Post_ID = post_salary_details.Post_ID ;

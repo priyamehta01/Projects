@@ -1,0 +1,1 @@
+select employee_working_detail.Employee_ID, FirstName, LastName, ContactNumber, NumberOfDaysPresent*WorkingHours*SalaryPerHour as Salary from post_salary_details, employee_working_detail, employee_personal_details where post_salary_details.Post_ID = employee_working_detail.Post_ID and employee_working_detail.Employee_ID = employee_personal_details.Employee_ID;

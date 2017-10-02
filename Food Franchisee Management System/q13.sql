@@ -1,0 +1,1 @@
+select employee_working_detail.Employee_ID, FirstName, MiddleName, LastName, ContactNumber from employee_working_detail, employee_personal_details where NumberOfDaysPresent >= 5 AND Rating <=2 and employee_personal_details.Employee_ID = employee_working_detail.Employee_ID;

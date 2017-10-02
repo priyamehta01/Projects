@@ -1,0 +1,1 @@
+SELECT Franchisee_ID, Post_ID, Count(employee_working_detail.Employee_ID) AS Number_Of_Employee  from employee_working_detail group by Post_ID, Franchisee_ID;

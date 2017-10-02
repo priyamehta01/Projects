@@ -1,0 +1,7 @@
+INSERT INTO `franchisee_management_system`.`employee_working_detail` (`Employee_ID`, `WorkingHours`, `NumberOfDaysPresent`, `NumberOfDaysOnLeave`, `Manager_ID`, `Rating`, `Post_ID`, `Franchisee_ID`) VALUES ('EM_001', '8', '12', '3', '', '3', 'M_01', 'FR_002');
+INSERT INTO `franchisee_management_system`.`employee_working_detail` (`Employee_ID`, `WorkingHours`, `NumberOfDaysPresent`, `NumberOfDaysOnLeave`, `Rating`, `Post_ID`, `Franchisee_ID`) VALUES ('EM_002', '11', '14', '1', '4', 'M_01', 'FR_001');
+INSERT INTO `franchisee_management_system`.`employee_working_detail` (`Employee_ID`, `WorkingHours`, `NumberOfDaysPresent`, `NumberOfDaysOnLeave`, `Rating`, `Post_ID`, `Franchisee_ID`) VALUES ('EM_003', '15', '13', '3', '2', 'M_01', 'FR_002');
+INSERT INTO `franchisee_management_system`.`employee_working_detail` (`Employee_ID`, `WorkingHours`, `NumberOfDaysPresent`, `NumberOfDaysOnLeave`, `Manager_ID`, `Rating`, `Post_ID`, `Franchisee_ID`) VALUES ('EM_004', '12', '12', '2', 'C_01', '1', 'C_02', 'FR_002');
+INSERT INTO `franchisee_management_system`.`employee_working_detail` (`Employee_ID`, `WorkingHours`, `NumberOfDaysPresent`, `NumberOfDaysOnLeave`, `Manager_ID`, `Rating`, `Post_ID`, `Franchisee_ID`) VALUES ('EM_005', '15', '13', '3', 'C_02', '3', 'C_03', 'FR_002');
+INSERT INTO `franchisee_management_system`.`employee_working_detail` (`Employee_ID`, `WorkingHours`, `NumberOfDaysPresent`, `NumberOfDaysOnLeave`, `Manager_ID`, `Rating`, `Post_ID`, `Franchisee_ID`) VALUES ('EM_006', '14', '12', '2', 'C_02', '4', 'C_03', 'FR_001');
+

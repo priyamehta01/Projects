@@ -1,0 +1,1 @@
+select RawMaterial_ID, Raw_Material_Name, sum(Quantity*Price) as Cost from raw_materials group by RawMaterial_ID;

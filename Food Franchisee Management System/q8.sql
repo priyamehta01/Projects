@@ -1,0 +1,1 @@
+select distinct customer_record.Food_ID,BillTime, Food_Name  from customer_record, food_items where BillTime between '14:00:00' and '15:00:00' and food_items.Food_ID = customer_record.Food_ID;

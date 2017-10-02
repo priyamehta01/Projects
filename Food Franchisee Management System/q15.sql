@@ -1,0 +1,1 @@
+select customer_record.Food_ID, Food_Name, sum((Quantity)*(Food_Price - Food_Actual_Price)) as Profit from customer_record, food_items where customer_record.Food_ID = food_items.Food_ID group by Food_ID;

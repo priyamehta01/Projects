@@ -1,0 +1,1 @@
+select owner_details.Owner_ID, owner_details.FirstName, owner_details.LastName, count(Franchisee_ID) from franchisee, owner_details where owner_details.Owner_ID = franchisee.Owner_ID group by Owner_ID;

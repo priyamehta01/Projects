@@ -1,0 +1,1 @@
+select Franchisee_ID, Food_ID ,count(Food_ID)*Quantity as TotalOrder from customer_record group by Franchisee_ID, Food_ID;

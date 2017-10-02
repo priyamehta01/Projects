@@ -1,0 +1,1 @@
+select customer_record.Food_ID, Food_Name from customer_record, food_items where food_items.Food_ID = customer_record.Food_ID group by customer_record.Food_ID  order by count(customer_record.Food_ID)*Quantity desc limit 10;

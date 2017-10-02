@@ -1,0 +1,1 @@
+select owner_details.Owner_ID, owner_details.FirstName, owner_details.LastName, franchisee_details.Franchisee_ID, franchisee_details.Area, franchisee_details.City from owner_details, franchisee_details, franchisee where franchisee.Franchisee_ID = franchisee_details.Franchisee_ID AND franchisee.Owner_ID = owner_details.Owner_ID;

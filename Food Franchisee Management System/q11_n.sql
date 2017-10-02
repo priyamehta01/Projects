@@ -1,0 +1,1 @@
+select raw_materials.Food_ID,food_items.Food_Name , sum(Quantity*Price) as TotalPriceOfRawMaterialsUsed  from raw_materials, food_items where raw_materials.Food_ID = food_items.Food_ID group by raw_materials.Food_ID; 
