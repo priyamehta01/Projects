@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/admin/Desktop/pv/MIPS/MIPS_tb_isim_par.exe" -prj "C:/Users/admin/Desktop/pv/MIPS/MIPS_tb_par.prj" "work.MIPS_tb" "work.glbl" 

@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/admin/Desktop/pv/MIPS/MIPS_tb_isim_par.exe -prj C:/Users/admin/Desktop/pv/MIPS/MIPS_tb_par.prj work.MIPS_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/admin/Desktop/pv/MIPS/netgen/par/MIPS_timesim.v" into library work
+Analyzing Verilog file "C:/Users/admin/Desktop/pv/MIPS/MIPS_tb.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module X_BUF
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_INV(LOC="SLICE_X65Y85")
+Compiling module X_LUT4(INIT=16'b1101100011011000...
+Compiling module sffsrce
+Compiling module X_SFF
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module X_IPAD
+Compiling module X_BUFGMUX(LOC="BUFGMUX_X2Y11")
+Compiling module X_RAMB16_S36_S36(SETUP_ALL=227,S...
+Compiling module X_RAMB16_S36_S36(SETUP_ALL=227,S...
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module X_FF(INIT=1'b1)
+Compiling module X_ONE
+Compiling module X_ZERO
+Compiling module MIPS
+Compiling module MIPS_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 2230 Verilog Units
+Built simulation executable C:/Users/admin/Desktop/pv/MIPS/MIPS_tb_isim_par.exe
+Fuse Memory Usage: 55760 KB
+Fuse CPU Usage: 7453 ms

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/VISHWA/Desktop/Sem 3/CO_Lab/MIPS/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/VISHWA/Desktop/Sem 3/CO_Lab/MIPS/xst"
+elaborate
+-ifn StallControlBlock.prj
+-ifmt mixed
